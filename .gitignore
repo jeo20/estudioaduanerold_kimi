@@ -1,0 +1,17 @@
+# Ignorar archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos de editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Ignorar archivos de logs
+*.log
+
+# Ignorar archivos temporales
+tmp/
+temp/

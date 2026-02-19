@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Proyectos realizados por Estudio Aduanero LD. Conocé nuestras operaciones de comercio exterior.">
+  <title>Proyectos | Estudio Aduanero LD</title>
+  
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: { DEFAULT: '#1e3a5f', dark: '#152a45', light: '#2a4a73' },
+            secondary: { DEFAULT: '#c9a227', light: '#e0b93a' }
+          }
+        }
+      }
+    }
+  </script>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect fill='%231e3a5f' width='100' height='100' rx='15'/><text x='50' y='65' font-size='45' fill='white' text-anchor='middle' font-weight='bold'>LD</text></svg>">
+</head>
+<body>
+  <!-- Navbar (Cargado dinámicamente) -->
+  <div id="navbar-container"></div>
+
+  <!-- Page Header -->
+  <header class="page-header">
+    <div class="page-header-bg"></div>
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="page-header-content">
+        <h1 class="page-header-title">Nuestros Proyectos</h1>
+        <p class="page-header-subtitle">Operaciones de comercio exterior realizadas</p>
+      </div>
+    </div>
+  </header>
+
+  <!-- Estadísticas -->
+  <section class="py-12 bg-white">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+        <div class="text-center reveal">
+          <div class="text-4xl font-bold text-primary mb-1">1000+</div>
+          <div class="text-gray-600 text-sm">Operaciones anuales</div>
+        </div>
+        <div class="text-center reveal">
+          <div class="text-4xl font-bold text-primary mb-1">500+</div>
+          <div class="text-gray-600 text-sm">Clientes activos</div>
+        </div>
+        <div class="text-center reveal">
+          <div class="text-4xl font-bold text-primary mb-1">50+</div>
+          <div class="text-gray-600 text-sm">Países conectados</div>
+        </div>
+        <div class="text-center reveal">
+          <div class="text-4xl font-bold text-primary mb-1">99%</div>
+          <div class="text-gray-600 text-sm">Operaciones exitosas</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Proyectos -->
+  <section class="section section-alt">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="section-header reveal">
+        <span class="section-label">Casos de Éxito</span>
+        <h2 class="section-title">Proyectos destacados</h2>
+        <p class="section-description">
+          Algunas de las operaciones de comercio exterior que hemos gestionado recientemente.
+        </p>
+      </div>
+      
+      <div class="projects-grid">
+        <!-- Proyecto 1 -->
+        <div class="project-card reveal">
+          <div class="project-image">
+            <i class="fas fa-industry"></i>
+          </div>
+          <div class="project-content">
+            <span class="project-category">Importación</span>
+            <h3 class="project-title">Maquinaria Industrial</h3>
+            <p class="project-description">
+              Gestión integral de importación de maquinaria industrial desde Alemania, 
+              incluyendo clasificación arancelaria y trámites de importación definitiva.
+            </p>
+          </div>
+        </div>
+        
+        <!-- Proyecto 2 -->
+        <div class="project-card reveal">
+          <div class="project-image" style="background: linear-gradient(135deg, #c9a227 0%, #e0b93a 100%);">
+            <i class="fas fa-fish"></i>
+          </div>
+          <div class="project-content">
+            <span class="project-category">Exportación</span>
+            <h3 class="project-title">Productos Pesqueros</h3>
+            <p class="project-description">
+              Coordinación de exportación de productos pesqueros frescos a mercados asiáticos, 
+              cumpliendo con todos los requisitos sanitarios y aduaneros.
+            </p>
+          </div>
+        </div>
+        
+        <!-- Proyecto 3 -->
+        <div class="project-card reveal">
+          <div class="project-image">
+            <i class="fas fa-ship"></i>
+          </div>
+          <div class="project-content">
+            <span class="project-category">Agente Marítimo</span>
+            <h3 class="project-title">Representación Portuaria</h3>
+            <p class="project-description">
+              Representación de buque de carga general en el puerto de Río Grande, 
+              coordinando operaciones de carga y descarga, y trámites con autoridades.
+            </p>
+          </div>
+        </div>
+        
+        <!-- Proyecto 4 -->
+        <div class="project-card reveal">
+          <div class="project-image" style="background: linear-gradient(135deg, #c9a227 0%, #e0b93a 100%);">
+            <i class="fas fa-car"></i>
+          </div>
+          <div class="project-content">
+            <span class="project-category">Importación</span>
+            <h3 class="project-title">Vehículos</h3>
+            <p class="project-description">
+              Tramitación de importación de vehículos para uso particular y comercial, 
+              gestionando todos los requisitos de la AFIP y la ANA.
+            </p>
+          </div>
+        </div>
+        
+        <!-- Proyecto 5 -->
+        <div class="project-card reveal">
+          <div class="project-image">
+            <i class="fas fa-boxes"></i>
+          </div>
+          <div class="project-content">
+            <span class="project-category">Transporte</span>
+            <h3 class="project-title">Cadena de Suministro</h3>
+            <p class="project-description">
+              Gestión integral de cadena de suministro para empresa manufacturera, 
+              coordinando transporte terrestre y almacenamiento.
+            </p>
+          </div>
+        </div>
+        
+        <!-- Proyecto 6 -->
+        <div class="project-card reveal">
+          <div class="project-image" style="background: linear-gradient(135deg, #c9a227 0%, #e0b93a 100%);">
+            <i class="fas fa-oil-can"></i>
+          </div>
+          <div class="project-content">
+            <span class="project-category">Importación</span>
+            <h3 class="project-title">Insumos Petroleros</h3>
+            <p class="project-description">
+              Importación de insumos y equipamiento para la industria petrolera, 
+              con gestión de permisos especiales y certificaciones.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonios -->
+  <section class="section">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="section-header reveal">
+        <span class="section-label">Testimonios</span>
+        <h2 class="section-title">Lo que dicen nuestros clientes</h2>
+      </div>
+      
+      <div class="grid md:grid-cols-3 gap-8">
+        <!-- Testimonio 1 -->
+        <div class="bg-white rounded-xl p-8 shadow-lg reveal">
+          <div class="flex items-center gap-1 text-secondary mb-4">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p class="text-gray-600 mb-6">
+            "Excelente servicio y profesionalismo. Estudio Aduanero LD hizo que nuestra primera 
+            importación fuera un proceso sencillo y sin complicaciones."
+          </p>
+          <div class="flex items-center gap-4">
+            <div class="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center text-primary">
+              <i class="fas fa-user"></i>
+            </div>
+            <div>
+              <h4 class="font-semibold text-gray-900">Carlos Martínez</h4>
+              <p class="text-gray-500 text-sm">Director, Industrias del Sur</p>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Testimonio 2 -->
+        <div class="bg-white rounded-xl p-8 shadow-lg reveal">
+          <div class="flex items-center gap-1 text-secondary mb-4">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p class="text-gray-600 mb-6">
+            "Llevamos años trabajando con ellos y siempre han demostrado eficiencia y conocimiento. 
+            Son nuestro aliado estratégico en comercio exterior."
+          </p>
+          <div class="flex items-center gap-4">
+            <div class="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center text-primary">
+              <i class="fas fa-user"></i>
+            </div>
+            <div>
+              <h4 class="font-semibold text-gray-900">María González</h4>
+              <p class="text-gray-500 text-sm">Gerente Comercial, Exportadora Patagónica</p>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Testimonio 3 -->
+        <div class="bg-white rounded-xl p-8 shadow-lg reveal">
+          <div class="flex items-center gap-1 text-secondary mb-4">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p class="text-gray-600 mb-6">
+            "Rapidez en las gestiones y atención personalizada. Siempre disponibles para resolver 
+            cualquier duda o imprevisto que surge en el proceso."
+          </p>
+          <div class="flex items-center gap-4">
+            <div class="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center text-primary">
+              <i class="fas fa-user"></i>
+            </div>
+            <div>
+              <h4 class="font-semibold text-gray-900">Roberto Silva</h4>
+              <p class="text-gray-500 text-sm">Propietario, Silva & Asociados</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="py-16 bg-primary relative overflow-hidden">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div class="text-center reveal">
+        <h2 class="text-2xl md:text-3xl font-bold text-white mb-4">
+          ¿Tenés un proyecto en mente?
+        </h2>
+        <p class="text-white/80 mb-6">
+          Contactanos y te ayudamos a hacerlo realidad.
+        </p>
+        <a href="contacto.html" class="btn btn-primary bg-secondary text-primary-dark hover:bg-secondary-light">
+          <i class="fas fa-paper-plane"></i>
+          Iniciar proyecto
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer (Cargado dinámicamente) -->
+  <div id="footer-container"></div>
+
+  <script src="../js/script.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      setTimeout(() => {
+        const yearElements = document.querySelectorAll('.current-year');
+        yearElements.forEach(el => {
+          el.textContent = new Date().getFullYear();
+        });
+      }, 500);
+    });
+  </script>
+</body>
+</html>

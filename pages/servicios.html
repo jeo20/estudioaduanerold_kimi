@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Servicios de Estudio Aduanero LD - Despacho Aduanero, Transporte Aduanero y Agente Marítimo.">
+  <title>Servicios | Estudio Aduanero LD</title>
+  
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: { DEFAULT: '#1e3a5f', dark: '#152a45', light: '#2a4a73' },
+            secondary: { DEFAULT: '#c9a227', light: '#e0b93a' }
+          }
+        }
+      }
+    }
+  </script>
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect fill='%231e3a5f' width='100' height='100' rx='15'/><text x='50' y='65' font-size='45' fill='white' text-anchor='middle' font-weight='bold'>LD</text></svg>">
+</head>
+<body>
+  <!-- Navbar (Cargado dinámicamente) -->
+  <div id="navbar-container"></div>
+
+  <!-- Page Header -->
+  <header class="page-header">
+    <div class="page-header-bg"></div>
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="page-header-content">
+        <h1 class="page-header-title">Nuestros Servicios</h1>
+        <p class="page-header-subtitle">Soluciones integrales para tu comercio exterior</p>
+      </div>
+    </div>
+  </header>
+
+  <!-- Servicios Detallados -->
+  <section class="section section-alt">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="space-y-16">
+        <!-- Servicio 1 -->
+        <div class="grid md:grid-cols-2 gap-8 items-center reveal">
+          <div class="order-2 md:order-1">
+            <div class="w-16 h-16 bg-gradient-to-br from-primary to-primary-light rounded-xl flex items-center justify-center text-white text-3xl mb-4">
+              <i class="fas fa-file-signature"></i>
+            </div>
+            <h2 class="text-2xl font-bold text-gray-900 mb-4">Despacho Aduanero</h2>
+            <p class="text-gray-600 mb-4">
+              Ofrecemos un servicio completo de despacho aduanero para importaciones y exportaciones. 
+              Nuestro equipo se encarga de toda la documentación necesaria, clasificación arancelaria 
+              y cumplimiento de normativas vigentes.
+            </p>
+            <ul class="space-y-2">
+              <li class="flex items-center gap-2 text-gray-600">
+                <i class="fas fa-check-circle text-secondary"></i>
+                Clasificación arancelaria
+              </li>
+              <li class="flex items-center gap-2 text-gray-600">
+                <i class="fas fa-check-circle text-secondary"></i>
+                Tramitación de documentación
+              </li>
+              <li class="flex items-center gap-2 text-gray-600">
+                <i class="fas fa-check-circle text-secondary"></i>
+                Gestión de permisos especiales
+              </li>
+              <li class="flex items-center gap-2 text-gray-600">
+                <i class="fas fa-check-circle text-secondary"></i>
+                Asesoramiento en normativas
+              </li>
+            </ul>
+          </div>
+          <div class="order-1 md:order-2">
+            <div class="bg-gradient-to-br from-primary to-primary-light rounded-2xl p-8 h-64 flex items-center justify-center text-white text-6xl">
+              <i class="fas fa-file-signature"></i>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Servicio 2 -->
+        <div class="grid md:grid-cols-2 gap-8 items-center reveal">
+          <div>
+            <div class="bg-gradient-to-br from-secondary to-secondary-light rounded-2xl p-8 h-64 flex items-center justify-center text-white text-6xl">
+              <i class="fas fa-truck"></i>
+            </div>
+          </div>
+          <div>
+            <div class="w-16 h-16 bg-gradient-to-br from-secondary to-secondary-light rounded-xl flex items-center justify-center text-white text-3xl mb-4">
+              <i class="fas fa-truck"></i>
+            </div>
+            <h2 class="text-2xl font-bold text-gray-900 mb-4">Transporte Aduanero</h2>
+            <p class="text-gray-600 mb-4">
+              Coordinamos todo el proceso logístico de tu carga, desde el origen hasta el destino final. 
+              Contamos con una red de transportistas confiables y experiencia en gestión de cadena de suministro.
+            </p>
+            <ul class="space-y-2">
+              <li class="flex items-center gap-2 text-gray-600">
+                <i class="fas fa-check-circle text-secondary"></i>
+                Transporte terrestre nacional
+              </li>
+              <li class="flex items-center gap-2 text-gray-600">
+                <i class="fas fa-check-circle text-secondary"></i>
+                Seguimiento de cargas en tiempo real
+              </li>
+              <li class="flex items-center gap-2 text-gray-600">
+                <i class="fas fa-check-circle text-secondary"></i>
+                Gestión de seguros de transporte
+              </li>
+              <li class="flex items-center gap-2 text-gray-600">
+                <i class="fas fa-check-circle text-secondary"></i>
+                Optimización de rutas
+              </li>
+            </ul>
+          </div>
+        </div>
+        
+        <!-- Servicio 3 -->
+        <div class="grid md:grid-cols-2 gap-8 items-center reveal">
+          <div class="order-2 md:order-1">
+            <div class="w-16 h-16 bg-gradient-to-br from-primary to-primary-light rounded-xl flex items-center justify-center text-white text-3xl mb-4">
+              <i class="fas fa-ship"></i>
+            </div>
+            <h2 class="text-2xl font-bold text-gray-900 mb-4">Agente Marítimo</h2>
+            <p class="text-gray-600 mb-4">
+              Como agentes marítimos, representamos a armadores y cargadores en todas las operaciones 
+              portuarias. Gestionamos el ingreso y egreso de buques, coordinación de cargas y trámites 
+              con autoridades portuarias.
+            </p>
+            <ul class="space-y-2">
+              <li class="flex items-center gap-2 text-gray-600">
+                <i class="fas fa-check-circle text-secondary"></i>
+                Representación de buques
+              </li>
+              <li class="flex items-center gap-2 text-gray-600">
+                <i class="fas fa-check-circle text-secondary"></i>
+                Coordinación portuaria
+              </li>
+              <li class="flex items-center gap-2 text-gray-600">
+                <i class="fas fa-check-circle text-secondary"></i>
+                Gestión de cargas marítimas
+              </li>
+              <li class="flex items-center gap-2 text-gray-600">
+                <i class="fas fa-check-circle text-secondary"></i>
+                Trámites con autoridades
+              </li>
+            </ul>
+          </div>
+          <div class="order-1 md:order-2">
+            <div class="bg-gradient-to-br from-primary to-primary-light rounded-2xl p-8 h-64 flex items-center justify-center text-white text-6xl">
+              <i class="fas fa-ship"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="py-16 bg-primary relative overflow-hidden">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div class="text-center reveal">
+        <h2 class="text-2xl md:text-3xl font-bold text-white mb-4">
+          ¿Necesitas alguno de nuestros servicios?
+        </h2>
+        <p class="text-white/80 mb-6">
+          Contáctanos y recibí una cotización personalizada para tu operación.
+        </p>
+        <a href="contacto.html" class="btn btn-primary bg-secondary text-primary-dark hover:bg-secondary-light">
+          <i class="fas fa-paper-plane"></i>
+          Solicitar cotización
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer (Cargado dinámicamente) -->
+  <div id="footer-container"></div>
+
+  <script src="../js/script.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      setTimeout(() => {
+        const yearElements = document.querySelectorAll('.current-year');
+        yearElements.forEach(el => {
+          el.textContent = new Date().getFullYear();
+        });
+      }, 500);
+    });
+  </script>
+</body>
+</html>

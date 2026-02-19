@@ -1,0 +1,37 @@
+<!-- ============================================
+     NAVBAR - COMPONENTE REUTILIZABLE
+     ============================================ -->
+<nav class="navbar transparent">
+  <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex items-center justify-between h-16">
+      <!-- Logo -->
+      <a href="index.html" class="navbar-brand">
+        <div class="navbar-logo">LD</div>
+        <span>Estudio Aduanero LD</span>
+      </a>
+      
+      <!-- Menú Desktop -->
+      <div class="hidden md:flex items-center space-x-1">
+        <a href="index.html" class="nav-link">Inicio</a>
+        <a href="pages/servicios.html" class="nav-link">Servicios</a>
+        <a href="pages/nosotros.html" class="nav-link">Empresa</a>
+        <a href="pages/proyectos.html" class="nav-link">Proyectos</a>
+        <a href="pages/contacto.html" class="nav-link">Contacto</a>
+      </div>
+      
+      <!-- Botón móvil -->
+      <button class="navbar-toggle md:hidden" aria-label="Abrir menú">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+    
+    <!-- Menú Móvil -->
+    <div class="navbar-menu md:hidden">
+      <a href="index.html" class="nav-link">Inicio</a>
+      <a href="pages/servicios.html" class="nav-link">Servicios</a>
+      <a href="pages/nosotros.html" class="nav-link">Empresa</a>
+      <a href="pages/proyectos.html" class="nav-link">Proyectos</a>
+      <a href="pages/contacto.html" class="nav-link">Contacto</a>
+    </div>
+  </div>
+</nav>

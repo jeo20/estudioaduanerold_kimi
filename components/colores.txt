@@ -1,0 +1,49 @@
+============================================
+PALETA DE COLORES - ESTUDIO ADUANERO LD
+============================================
+
+COLORES PRINCIPALES:
+-------------------
+Primary (Azul marino):     #1e3a5f
+Primary Dark:              #152a45
+Primary Light:             #2a4a73
+
+Secondary (Dorado):        #c9a227
+Secondary Light:           #e0b93a
+
+Accent (Celeste):          #0ea5e9
+
+COLORES DE TEXTO:
+----------------
+Texto principal:           #1f2937
+Texto secundario:          #6b7280
+
+COLORES DE FONDO:
+----------------
+Fondo principal:           #ffffff
+Fondo alternativo:         #f8fafc
+Fondo oscuro:              #0f172a
+
+GRADIENTES:
+-----------
+Gradiente primario:        linear-gradient(135deg, #1e3a5f 0%, #2a4a73 100%)
+Gradiente hero:            linear-gradient(135deg, rgba(30, 58, 95, 0.95) 0%, rgba(15, 42, 69, 0.9) 100%)
+
+SOMBRAS:
+--------
+Shadow SM:                 0 1px 2px 0 rgb(0 0 0 / 0.05)
+Shadow MD:                 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1)
+Shadow LG:                 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1)
+Shadow XL:                 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1)
+
+TRANSICIONES:
+-------------
+Fast:                      150ms ease-in-out
+Base:                      300ms ease-in-out
+Slow:                      500ms ease-in-out
+
+TIPOGRAFÍA:
+-----------
+Font Family:               'Inter', -apple-system, BlinkMacSystemFont, sans-serif
+
+============================================

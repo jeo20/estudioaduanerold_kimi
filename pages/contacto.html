@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contactá a Estudio Aduanero LD. Estamos para ayudarte con tus operaciones de comercio exterior.">
+  <title>Contacto | Estudio Aduanero LD</title>
+  
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: { DEFAULT: '#1e3a5f', dark: '#152a45', light: '#2a4a73' },
+            secondary: { DEFAULT: '#c9a227', light: '#e0b93a' }
+          }
+        }
+      }
+    }
+  </script>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect fill='%231e3a5f' width='100' height='100' rx='15'/><text x='50' y='65' font-size='45' fill='white' text-anchor='middle' font-weight='bold'>LD</text></svg>">
+</head>
+<body>
+  <!-- Navbar (Cargado dinámicamente) -->
+  <div id="navbar-container"></div>
+
+  <!-- Page Header -->
+  <header class="page-header">
+    <div class="page-header-bg"></div>
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="page-header-content">
+        <h1 class="page-header-title">Contacto</h1>
+        <p class="page-header-subtitle">Estamos para ayudarte</p>
+      </div>
+    </div>
+  </header>
+
+  <!-- Contacto -->
+  <section class="section section-alt">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="contact-grid">
+        <!-- Info de Contacto -->
+        <div class="reveal">
+          <div class="contact-info-card">
+            <h2 class="contact-info-title">Información de Contacto</h2>
+            <p class="contact-info-text">
+              No dudes en contactarnos para cualquier consulta sobre nuestros servicios de comercio exterior.
+            </p>
+            
+            <div class="contact-info-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <h4>Dirección</h4>
+                <p>Paseo de los Arrieros 3068<br>Río Gallegos, Santa Cruz</p>
+              </div>
+            </div>
+            
+            <div class="contact-info-item">
+              <i class="fas fa-phone"></i>
+              <div>
+                <h4>Teléfono</h4>
+                <p>+54 9 2966 460200</p>
+              </div>
+            </div>
+            
+            <div class="contact-info-item">
+              <i class="fas fa-envelope"></i>
+              <div>
+                <h4>Email</h4>
+                <p>ldriezler@estudioaduanerold.com.ar</p>
+              </div>
+            </div>
+            
+            <div class="contact-info-item">
+              <i class="fas fa-clock"></i>
+              <div>
+                <h4>Horario de Atención</h4>
+                <p>Lunes a Viernes: 8:00 - 17:00</p>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Redes Sociales -->
+          <div class="mt-6 bg-white rounded-xl p-6 shadow-lg">
+            <h3 class="font-semibold text-gray-900 mb-4">Seguinos en redes</h3>
+            <div class="flex gap-3">
+              <a href="#" class="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center text-primary hover:bg-primary hover:text-white transition-colors">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="#" class="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center text-primary hover:bg-primary hover:text-white transition-colors">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+              <a href="#" class="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center text-primary hover:bg-primary hover:text-white transition-colors">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="https://wa.me/5492966460200" target="_blank" class="w-10 h-10 bg-green-500/10 rounded-lg flex items-center justify-center text-green-500 hover:bg-green-500 hover:text-white transition-colors">
+                <i class="fab fa-whatsapp"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Formulario -->
+        <div class="reveal">
+          <div class="contact-form-card">
+            <h2 class="text-2xl font-bold text-gray-900 mb-2">Envianos un mensaje</h2>
+            <p class="text-gray-600 mb-6">
+              Completá el formulario y te responderemos a la brevedad.
+            </p>
+            
+            <form id="contactForm" action="#" method="POST">
+              <div class="grid md:grid-cols-2 gap-4">
+                <div class="form-group">
+                  <label for="nombre" class="form-label">Nombre *</label>
+                  <input type="text" id="nombre" name="nombre" class="form-input" placeholder="Tu nombre" required>
+                </div>
+                
+                <div class="form-group">
+                  <label for="apellido" class="form-label">Apellido *</label>
+                  <input type="text" id="apellido" name="apellido" class="form-input" placeholder="Tu apellido" required>
+                </div>
+              </div>
+              
+              <div class="form-group">
+                <label for="email" class="form-label">Email *</label>
+                <input type="email" id="email" name="email" class="form-input" placeholder="tu@email.com" required>
+              </div>
+              
+              <div class="form-group">
+                <label for="telefono" class="form-label">Teléfono</label>
+                <input type="tel" id="telefono" name="telefono" class="form-input" placeholder="+54 9 ...">
+              </div>
+              
+              <div class="form-group">
+                <label for="servicio" class="form-label">Servicio de interés</label>
+                <select id="servicio" name="servicio" class="form-input">
+                  <option value="">Seleccioná un servicio</option>
+                  <option value="despacho">Despacho Aduanero</option>
+                  <option value="transporte">Transporte Aduanero</option>
+                  <option value="maritimo">Agente Marítimo</option>
+                  <option value="asesoramiento">Asesoramiento</option>
+                  <option value="otro">Otro</option>
+                </select>
+              </div>
+              
+              <div class="form-group">
+                <label for="mensaje" class="form-label">Mensaje *</label>
+                <textarea id="mensaje" name="mensaje" class="form-textarea" placeholder="¿En qué podemos ayudarte?" required></textarea>
+              </div>
+              
+              <button type="submit" class="btn btn-primary w-full">
+                <i class="fas fa-paper-plane"></i>
+                Enviar mensaje
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Mapa -->
+  <section class="section" style="padding: 0;">
+    <div class="w-full h-96 bg-gray-200 relative">
+      <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d875.8450137122959!2d-69.27361490955!3d-51.61837675534594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xbdb6fd0042865b4b%3A0x5dd183b9873be3e7!2sEstudio%20Aduanero%20LD!5e0!3m2!1ses!2sar!4v1770901804557!5m2!1ses!2sar"
+        width="100%" 
+        height="100%" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+  </section>
+
+  <!-- Footer (Cargado dinámicamente) -->
+  <div id="footer-container"></div>
+
+  <script src="../js/script.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      setTimeout(() => {
+        const yearElements = document.querySelectorAll('.current-year');
+        yearElements.forEach(el => {
+          el.textContent = new Date().getFullYear();
+        });
+      }, 500);
+    });
+    
+    // Manejo del formulario
+    document.getElementById('contactForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      alert('¡Gracias por tu mensaje! Te contactaremos a la brevedad.');
+      this.reset();
+    });
+  </script>
+</body>
+</html>

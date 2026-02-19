@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página no encontrada | Estudio Aduanero LD</title>
+  
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: { DEFAULT: '#1e3a5f', dark: '#152a45', light: '#2a4a73' },
+            secondary: { DEFAULT: '#c9a227', light: '#e0b93a' }
+          }
+        }
+      }
+    }
+  </script>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect fill='%231e3a5f' width='100' height='100' rx='15'/><text x='50' y='65' font-size='45' fill='white' text-anchor='middle' font-weight='bold'>LD</text></svg>">
+</head>
+<body>
+  <!-- Navbar (Cargado dinámicamente) -->
+  <div id="navbar-container"></div>
+
+  <div class="error-page">
+    <div class="reveal active">
+      <div class="error-code">404</div>
+      <h1 class="error-title">Página no encontrada</h1>
+      <p class="error-text">
+        Lo sentimos, la página que estás buscando no existe o ha sido movida.
+      </p>
+      <a href="index.html" class="btn btn-primary">
+        <i class="fas fa-home"></i>
+        Volver al inicio
+      </a>
+    </div>
+  </div>
+
+  <!-- Footer (Cargado dinámicamente) -->
+  <div id="footer-container"></div>
+
+  <script src="js/script.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      setTimeout(() => {
+        const yearElements = document.querySelectorAll('.current-year');
+        yearElements.forEach(el => {
+          el.textContent = new Date().getFullYear();
+        });
+      }, 500);
+    });
+  </script>
+</body>
+</html>

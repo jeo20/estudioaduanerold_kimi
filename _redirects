@@ -1,0 +1,3 @@
+# Redirects para Netlify
+/home    /index.html    301
+/inicio  /index.html    301
